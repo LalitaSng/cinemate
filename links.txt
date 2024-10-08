@@ -1,0 +1,39 @@
+53982f25f3bbff5487fda7432d731a70
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=53982f25f3bbff5487fda7432d731a70
+
+Now Playing:
+https://api.themoviedb.org/3/movie/now_playing?api_key=53982f25f3bbff5487fda7432d731a70
+
+Popular:
+https://api.themoviedb.org/3/movie/popular?api_key=53982f25f3bbff5487fda7432d731a70
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=53982f25f3bbff5487fda7432d731a70
+
+Upcoming: 
+https://api.themoviedb.org/3/movie/upcoming?api_key=53982f25f3bbff5487fda7432d731a70
+
+Search:
+https://api.themoviedb.org/3/search/movie?api_key=53982f25f3bbff5487fda7432d731a70&query={movie_name}
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=53982f25f3bbff5487fda7432d731a70;&query=
+
+
+now Playing
+     --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}' \
+
+popular
+     --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc' \
+
+top rated
+     --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=vote_average.desc&without_genres=99,10755&vote_count.gte=200' \
+
+
+upcoming
+
+     --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}' \
+
+
+dark:bg-gray-800
